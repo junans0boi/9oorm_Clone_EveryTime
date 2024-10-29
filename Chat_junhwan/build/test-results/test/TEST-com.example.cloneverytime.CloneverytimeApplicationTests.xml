@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.cloneverytime.CloneverytimeApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-30T01:16:52" hostname="junzzang-ubuntu-vnic" time="0.695">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.cloneverytime.CloneverytimeApplicationTests" time="0.695"/>
+  <system-out><![CDATA[01:16:49.000 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.cloneverytime.CloneverytimeApplicationTests]: CloneverytimeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:16:49.096 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.cloneverytime.ChatApplication for test class com.example.cloneverytime.CloneverytimeApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2024-09-30T01:16:49.492Z  INFO 1374310 --- [    Test worker] c.e.c.CloneverytimeApplicationTests      : Starting CloneverytimeApplicationTests using Java 17.0.12 with PID 1374310 (started by ubuntu in /home/ubuntu/cloneverytime)
+2024-09-30T01:16:49.494Z  INFO 1374310 --- [    Test worker] c.e.c.CloneverytimeApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-09-30T01:16:50.141Z  INFO 1374310 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-09-30T01:16:50.199Z  INFO 1374310 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 2 MongoDB repository interfaces.
+2024-09-30T01:16:50.584Z  INFO 1374310 --- [    Test worker] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.9.1"}, "os": {"type": "Linux", "name": "Linux", "architecture": "aarch64", "version": "6.5.0-1027-oracle"}, "platform": "Java/Ubuntu/17.0.12+7-Ubuntu-1ubuntu222.04"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@6fcd31c3, com.mongodb.Jep395RecordCodecProvider@67bf0480]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2024-09-30T01:16:50.610Z  INFO 1374310 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=24979800}
+모든 사용자의 온라인 상태가 초기화되었습니다.
+2024-09-30T01:16:51.723Z  INFO 1374310 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-30T01:16:52.213Z  INFO 1374310 --- [    Test worker] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2024-09-30T01:16:52.215Z  INFO 1374310 --- [    Test worker] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@5a6f6cac]]
+2024-09-30T01:16:52.216Z  INFO 1374310 --- [    Test worker] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2024-09-30T01:16:52.230Z  INFO 1374310 --- [    Test worker] c.e.c.CloneverytimeApplicationTests      : Started CloneverytimeApplicationTests in 2.991 seconds (process running for 4.126)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
